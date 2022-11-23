@@ -218,6 +218,49 @@ const Print_Odd = (N) =>
         </div>
     </div>
 
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="boxes">
+      <h2>Ques. 9 . Check whether a Number is a prime or not.</h2>
+      <div class="code">
+          <pre>
+          const Prime_Check = (N) => 
+            {
+               let count = 2, str=''
+              
+               
+               
+               if (N === 1 ){
+                   return 'NO'
+                 }
+                         
+               else {
+                 for (let v = 2 ; v <= N -1  ; v=v+1){
+                 
+                 if (N%v===0 && N > 1){ 
+                   return "NO"
+                 }
+                 
+                 else{
+                   if (v === N-1){
+                      return 'YES'
+                   }
+                 }
+                   
+               }
+               }
+               
+              
+            };
+            
+            
+                          </pre>
+      </div>
+  </div>
+
     <h1 class="mainheading">*******************</h1>
 </body>
 </html>
